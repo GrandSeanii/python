@@ -1,7 +1,7 @@
-ascii_nums = input("hier bitte die ascii-nummern eingeben :* : ")
+ascii_nummern = input("hier bitte die ascii-nummern eingeben :* : ")
 
 text = ""
-for ascii_num in ascii_nums.split():
-    text += chr(int(ascii_num))
+for ascii_nummern in ascii_nummern.split():
+    text += chr(int(ascii_nummern))
 
 print(text)
